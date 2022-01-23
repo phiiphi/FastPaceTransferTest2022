@@ -31,7 +31,7 @@ This boilerplate has one role (`Super Administrator`), who can create other Admi
 
 
 ## API AUTHENTICATION
-This project uses [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) an **authentication** technique. **Sanctum** is a simple package that is use to issue API tokens to your users, it offers this feature by storing user API tokens in a single database table and authenticating **incoming HTTP** requests via the **Authorization header** which should contain a valid API token. 
+This project uses [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) as an **authentication** technique. **Sanctum** is a simple package that is use to issue API tokens to users, it offers this feature by storing user API tokens in a single database table and authenticating **incoming HTTP** requests via the **Authorization header** which should contain a valid API token. 
 
 
 The following API link can be copied for testing using [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/).
@@ -71,7 +71,7 @@ The following API link can be copied for testing using [Postman](https://www.pos
 ![User Login After Registration](https://drive.google.com/uc?export=view&id=13WzPUbPsTry3HbONQp40fnrGeuSlieNl)
 
 
-**Create Admin By Super Admin**
+**Create Admin By Super Admin Only**
 ![Admin trying to Create User which Only Super Admin can do](https://drive.google.com/uc?export=view&id=1DZ7hDkTNIlM_QMLTjeBpS-tjQkVC54OS)
 
 
