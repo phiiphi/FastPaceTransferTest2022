@@ -9,7 +9,7 @@ This is web based REST API created in [Laravel](https://laravel.com/) that perfo
 
 ---
 
-![Default Users Seeders screenshot](https://drive.google.com/file/d/1blmwLQCe2ZwXAnWn2C4BY8TOyC3ip4A7/view?usp=sharing)
+![Default Users Seeders screenshot](https://drive.google.com/uc?export=view&id=1blmwLQCe2ZwXAnWn2C4BY8TOyC3ip4A7)
 
 The following API link can be copied for testing using [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/).
 ## PUBLIC API's ROUTES
@@ -60,11 +60,11 @@ This boilerplate has one role (`Super Administrator`), who can create other Admi
 
 ## Images of some API's links tested using Postman
 
-![User Login After Registration](https://drive.google.com/file/d/13WzPUbPsTry3HbONQp40fnrGeuSlieNl/view?usp=sharing)
+![User Login After Registration](https://drive.google.com/uc?export=view&id=13WzPUbPsTry3HbONQp40fnrGeuSlieNl)
 
-![Admin trying to Create User which Only Super Admin can do](https://drive.google.com/file/d/1DZ7hDkTNIlM_QMLTjeBpS-tjQkVC54OS/view?usp=sharing)
+![Admin trying to Create User which Only Super Admin can do](https://drive.google.com/file/d/1DZ7hDkTNIlM_QMLTjeBpS-tjQkVC54OS/)
 
-![User Password hashed with Bycrypt to prevent reverse engineering if access by unauthorised user](https://drive.google.com/file/d/1ul2uGp_4Ww9UKqGb6XKZJvlDh9hFBHZH/view?usp=sharing)
+![User Password hashed with Bycrypt to prevent reverse engineering if access by unauthorised user](https://drive.google.com/uc?export=view&id=1ul2uGp_4Ww9UKqGb6XKZJvlDh9hFBHZH)
 
 ## License
 
