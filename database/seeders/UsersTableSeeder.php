@@ -14,12 +14,11 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        //
         $users = [
             [
                 'id'                => 1,
                 'name'              => 'Super Admin',
-                'email'             => 'admin@fastpace.com',
+                'email'             => 'admin@fastpacetransfer.com',
                 'email_verified_at' => '2022-01-22 14:00:26',
                 'password'          => '$2y$10$qyxYm.2dlaXROvs0OrGHseo4qbeissRMqNWdhlcr/vUqE62vN94Fi',
                 'phone'             => '024444000',
@@ -43,7 +42,7 @@ class UsersTableSeeder extends Seeder
             [
                 'id'                => 3,
                 'name'              => 'Jane Doe',
-                'email'             => 'jabedoe@gmail.com',
+                'email'             => 'janedoe@gmail.com',
                 'email_verified_at' => null,
                 'password'          => '$2y$10$qyxYm.2dlaXROvs0OrGHseo4qbeissRMqNWdhlcr/vUqE62vN94Fi',
                 'phone'             => '0244240088',
