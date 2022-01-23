@@ -62,7 +62,7 @@ This boilerplate has one role (`Super Administrator`), who can create other Admi
 
 ![User Login After Registration](https://drive.google.com/uc?export=view&id=13WzPUbPsTry3HbONQp40fnrGeuSlieNl)
 
-![Admin trying to Create User which Only Super Admin can do](https://drive.google.com/file/d/1DZ7hDkTNIlM_QMLTjeBpS-tjQkVC54OS/)
+![Admin trying to Create User which Only Super Admin can do](https://drive.google.com/file/d/1DZ7hDkTNIlM_QMLTjeBpS-tjQkVC54OS/edit)
 
 ![User Password hashed with Bycrypt to prevent reverse engineering if access by unauthorised user](https://drive.google.com/uc?export=view&id=1ul2uGp_4Ww9UKqGb6XKZJvlDh9hFBHZH)
 
