@@ -17,12 +17,15 @@ This is not a package - it's a full [Laravel](https://laravel.com/) web API with
 -   Clone the repository with `git clone https://github.com/phiiphi/FastPaceTransferTest2022.git`
 -   Create `.env` file by using the terminal command: `touch .env`
 -   Copy `.env.example` file to `.env` and edit database credentials there
+-   Change **MAILER** setting in  `.env` by replacing MAIL_USERNAME="your email"
+MAIL_PASSWORD="your password" with your credentials for mailing.
 -   Run `composer install`
 -   Run `php artisan key:generate`
 -   Run `php artisan migrate --seed` (it has some seeded data - see below)
 -   Run `php artisan serve` to serve project on (`http://127.0.0.1:8000/)
 -   **Super Admin Logins** Email: `admin@fastpacetransfer.com` - Password:`password`
 -   **Students Logins**: Email: `johnDoe@gmail.com.com` - Password:`password`
+-   **Prepolated Users are already verified**
 -   **Users are given API tokens after successfully login**
 
 
@@ -30,8 +33,11 @@ This boilerplate has one role (`Super Administrator`), who can create other Admi
 
 
 
-## API AUTHENTICATION
-This project uses [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) as an **authentication** technique. **Sanctum** is a simple package that is use to issue API tokens to users, it offers this feature by storing user API tokens in a single database table and authenticating **incoming HTTP** requests via the **Authorization header** which should contain a valid API token. 
+## API AUTHENTICATION (TOKEN AND EMAIL)
+This project uses [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) as an **authentication** technique. **Sanctum** is a simple package that is use to issue API tokens to users, it offers this feature by storing user API tokens in a single database table and authenticating **incoming HTTP** requests via the **Authorization header** which should contain a valid API token. This project also implements email authentication for users to be verifed before access to the system.
+
+
+
 
 
 The following API link can be copied for testing using [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/).
@@ -41,9 +47,14 @@ The following API link can be copied for testing using [Postman](https://www.pos
 
 **HTTP METHOD**: `POST`
 -   Login; Copy `http://127.0.0.1:8000/api/login`
--   Student Registration;Copy:`http://127.0.0.1:8000/api/register`
+-   Student Registration; Copy:`http://127.0.0.1:8000/api/register`
 
 ## PROTECTED API's ROUTES
+**This API allows users to be recieve email verification**
+-   Send Email Verification Link; Copy:`http://127.0.0.1:8000/api/email/verification`
+
+
+## PROTECTED AND VERIFIED API's ROUTES
 
 **HTTP METHOD**: `GET`
 
